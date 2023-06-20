@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #E1F6FF;
+}
+
+.header_parametre {
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+}
+
+.container .header_parametre a {
+    text-decoration: none;
+}
+
+.go_profil {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    height: 600px;
+    width: 500px;
+    align-items: center;
+    border: 5px solid #51B4D3;
+    border-radius: 30px;
+    padding: auto;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 101px;
+}
+
+.privaty {
+    text-align: center;
+}
+
+.privaty button {
+    padding: 20px 50px;
+    background-color: #51B4D3;
+    border-radius: 30px;
+    color: white;
+    border: none;
+}
+
+.logout {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.logout button {
+    padding: 20px 95px;
+    background-color: #51B4D3;
+    border-radius: 30px;
+    color: white;
+    border: none;
+}
+
+button {
+    margin-top: 50px;
+}

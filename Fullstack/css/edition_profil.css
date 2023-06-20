@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* pour definir des couleurs avec des variables modifiables */
+
+:root{
+    --bg-color:#edebeb;
+    --second-bg-color:#765e5c;
+    --text-color:#000000;
+    --title-color:red;
+    --main-color:#ad6a6c;
+    --button-color:red;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--text-color);
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color:var(--bg-color);
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--title-color);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 0.6rem;
+    background-color:var(--button-color);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #72794f;
+}
+
+input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+input[type="date"] {
+    display: block;
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+

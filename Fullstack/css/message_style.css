@@ -1,0 +1,31 @@
+.test {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-align {
+
+    text-align: center;
+
+}
+
+.single_message {
+
+
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    
+
+}
+ 
+.conversation {
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+
+
+}

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E1F6FF;
+}
+
+.info_chat {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.chat_users {
+    text-align: center;
+    padding: 50px;
+}
+
+.send_message form {
+    margin-left: 50px;
+}
+
+.single_message {
+    height: auto;
+    background-color: pink;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 20px;
+}

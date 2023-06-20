@@ -1,0 +1,51 @@
+form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+fieldset div label {
+  
+    display: flex;
+    margin-bottom: 10px;
+  
+}
+
+fieldset input[type="text"],
+fieldset input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+fieldset label p{
+
+    padding-left: 10px;
+
+
+}
+
+
+fieldset input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+fieldset input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  padding: 80px;
+}

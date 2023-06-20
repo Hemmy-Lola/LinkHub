@@ -1,0 +1,9 @@
+ul#suggestions-list li {
+    display: flex;
+    align-items: center;
+  }
+  
+ul#suggestions-list li .delete-btn {
+margin-right: 10px;
+}
+  

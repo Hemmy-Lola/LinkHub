@@ -1,0 +1,437 @@
+/* Styles spécifiques à la page d'authentification */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #E1F6FF;
+}
+
+h1 {
+  text-align: center;
+ 
+  color: #51B4D3;
+  
+}
+
+.container {
+  max-width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #E1F6FF;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  padding: 20px;
+  background-color: #51B4D3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #4287a8;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    ;
+    
+  }
+  
+  footer {
+    background-color: #51B4D3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Ajout de la marge inférieure pour espacer les liens du paragraphe */
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+
+  body {
+
+    margin: 0;
+    
+}
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Linkhub*/
+
+   
+
+
+
+/* Rectangle Image */
+image {
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 300px;
+height: 300px;
+left: 200px;
+top: 632px;
+
+background: url(Checker.png);
+/* Contour barre de recherche */
+
+border: 1px solid #51B4D3;
+
+
+
+}
+
+rectangle {
+    /*RECTANGLE*/
+box-sizing: border-box;
+position: absolute;
+width: 300px;
+height: 100px;
+left: 200px;
+top: 932px;
+
+background: #FFFFFF;
+/* Contour barre de recherche */
+
+border: 1px solid #51B4D3
+}
+
+text {
+ /* Alexis  TEXTE*/
+position: absolute;
+width: 122px;
+height: 55px;
+left: 289px;
+top: 954px;
+
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 55px;
+
+color: #000000;
+}
+
+emailre {
+/* Rectangle mail */
+box-sizing: border-box;
+
+position: absolute;
+width: 800px;
+height: 100px;
+left: 320px;
+top: 1233px;
+/* white */
+background: #FFFFFF;
+/* Contour barre de recherche */
+border: 1px solid #51B4D3;
+border-radius: 30px;
+}
+
+email {
+ /* Adresse e-mail texte */
+position: absolute;
+width: 298px;
+height: 55px;
+left: 384px;
+top: 1256px;
+
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 55px;
+
+color: #929292;
+
+}
+
+password {
+/* Rectangle mot de passe*/
+box-sizing: border-box;
+position: absolute;
+width: 800px;
+height: 100px;
+left: 321px;
+top: 1383px;
+
+/* white */
+
+background: #FFFFFF;
+/* Contour barre de recherche */
+
+border: 1px solid #51B4D3;
+border-radius: 30px; 
+}
+
+password {
+  /* textMDP */
+
+
+position: absolute;
+width: 540px;
+height: 20px;
+left: 384px;
+top: 1423px;
+
+}
+password {
+    /* Mot de passe oublié ? */
+position: absolute;
+width: 443px;
+height: 55px;
+left: 481px;
+top: 1533px;
+
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 55px;
+
+color: #000000;
+}
+
+
+login {
+    /* Rectangle se connecter */
+
+
+position: absolute;
+width: 600px;
+height: 100px;
+left: 414px;
+top: 1638px;
+
+/* Contour barre de recherche */
+
+background: #51B4D3;
+border-radius: 30px;
+}
+
+login {
+/* text Se connecter  texte*/
+
+
+position: absolute;
+width: 265px;
+height: 55px;
+left: 582px;
+top: 1660px;
+
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 55px;
+
+color: #FFFFFF
+}
+
+account {
+ /* text Créer un compte */
+position: absolute;
+width: 206px;
+height: 33px;
+left: 604px;
+top: 1777px;
+
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 33px;
+
+color: #000000;
+
+
+}

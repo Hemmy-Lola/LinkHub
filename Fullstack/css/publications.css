@@ -1,0 +1,167 @@
+    /* Style des formulaires */
+    /* Style de base */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+  
+      body {
+        font-family: sans-serif;
+        background-color: #f4f4f4;
+      }
+  
+      /* Style des formulaires */
+      .publication-form,
+      .comment-form,
+      .reaction-form {
+        background-color: #fff;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+  
+      /* Style des champs de texte */
+      textarea {
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        resize: none;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+        background-color: #f4f4f4;
+        color: #444;
+      }
+  
+      textarea:focus {
+        outline: none;
+        background-color: #fff;
+        color: #000;
+      }
+  
+      /* Style des boutons */
+      button[type="submit"] {
+        background-color: #1877f2;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+  
+      button[type="submit"]:hover {
+        background-color: #1651a0;
+      }
+  
+      .reaction-btn {
+        background-color: transparent;
+        border: none;
+        margin-right: 10px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+  
+      .reaction-btn:hover {
+        transform: scale(1.1);
+      }
+  
+      /* Style des icônes */
+      i {
+        margin-right: 5px;
+        color: #999;
+      }
+  
+      /* Style des réactions */
+      .reaction-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+      }
+  
+      .reaction-count {
+        margin-right: 5px;
+        font-size: 14px;
+        color: #666;
+      }
+  
+      .reaction-icon {
+        font-size: 20px;
+        color: #999;
+        margin-right: 5px;
+      }
+  
+      /* Style de l'image */
+      .image-preview {
+        max-width: 100%;
+        max-height: 400px;
+        margin-top: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+  
+      /* Style du bouton pour sélectionner une image */
+      .image-select-btn {
+        display: block;
+        background-color: #1877f2;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 10px;
+      }
+  
+      .image-select-btn:hover {
+        background-color: #1651a0;
+      }
+  
+      /* Style du champ pour sélectionner un fichier */
+      .image{ 
+    display: none;
+  }
+  
+  .image-label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #444;
+  }
+  
+  .image-input {
+  display: block;
+  }
+  
+  .image-input[type="file"] {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  }
+  
+  .image-input[type="file"] + .image-label {
+  cursor: pointer;
+  }
+  
+  .image-input[type="file"]:focus + .image-label,
+  .image-input[type="file"]:hover + .image-label {
+  background-color: #f4f4f4;
+  }
+  
+  .image-input[type="file"]:focus + .image-label {
+  outline: 1px dotted #999;
+  outline: -webkit-focus-ring-color auto 5px;
+  }
+  
+  .image-preview {
+  object-fit: contain;
+  }
